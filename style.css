@@ -17,7 +17,7 @@ nav {
   grid-template-columns: auto 1fr;
   align-items: center;
   grid-column-gap: 10px;
-  margin-top: 30px;
+  margin-top: 10px;
 }
 
 nav .brand {
@@ -44,7 +44,7 @@ nav a.active {
 
 header {
   text-align: center;
-  margin-top: 50px;
+  margin-top: 10px;
   background-color: aqua;
 }
 
@@ -79,8 +79,10 @@ header p {
 #nav {
   background-color: maroon;
   float: left;
-  width: 180px;
+  width: 170px;
   min-height: 50vh;
+  margin: 10px;
+  border-radius: 5px;
 }
 
 #nav ul {
@@ -97,18 +99,22 @@ header p {
 #main {
   background-color: chartreuse;
   float: right;
-  width: 600px;
+  width: 580px;
   height: 50vh;
+  margin: 10px;
+  border-radius: 5px;
 }
 
 #footer {
   background-color: gray;
   height: 40px;
-  color: blue;
+  color: white;
   text-align: right;
-  padding: 20px 40px;
+  font-size: 10px;
   clear: both;
-  font-weight: 900;
   font-size: 20px;
   font-family: Arial, Helvetica, sans-serif;
+}
+#mySpan {
+  color: blue;
 }
