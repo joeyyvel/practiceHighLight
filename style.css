@@ -36,6 +36,12 @@ nav a {
   display: inline-block;
 }
 
+/*  the cream of the crop */
+nav a:hover,
+nav a.active {
+  background-color: pink;
+}
+
 header {
   text-align: center;
   margin-top: 50px;
@@ -97,9 +103,12 @@ header p {
 
 #footer {
   background-color: gray;
-  height: 20px;
-  color: white;
+  height: 40px;
+  color: blue;
   text-align: right;
   padding: 20px 40px;
   clear: both;
+  font-weight: 900;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
 }
