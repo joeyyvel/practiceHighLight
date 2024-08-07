@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton+SC&family=Nunito+Sans:ital,opsz,wght@0,6..12,200..1000;1,6..12,200..1000&family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #eee;
+  font-family: Nunito;
+}
+
+nav {
+  background-color: black;
+  display: grid;
+  grid-template-columns: auto 1fr;
+  align-items: center;
+  grid-column-gap: 10px;
+  margin-top: 30px;
+}
+
+nav .brand {
+  color: green;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 25px 40px;
+}
+
+nav a {
+  text-decoration: none;
+  padding: 15px 30px;
+  transition: all 0.5s;
+  border-radius: 50%;
+  font-size: 18px;
+  display: inline-block;
+}
+
+header {
+  text-align: center;
+  margin-top: 50px;
+  background-color: aqua;
+}
+
+header h1 {
+  color: red;
+}
+
+header h2 {
+  color: blue;
+}
+
+header p {
+  color: green;
+  text-align: left;
+}
+
+#container {
+  border: 3px solid green;
+  width: 800px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+#header {
+  background-color: aquamarine;
+  padding: 20px 40px;
+  text-align: center;
+  color: white;
+  background-color: black;
+}
+
+#nav {
+  background-color: maroon;
+  float: left;
+  width: 180px;
+  min-height: 50vh;
+}
+
+#nav ul {
+  list-style-type: none;
+  padding: 10px;
+  color: yellow;
+}
+
+#nav a {
+  text-decoration: none;
+  color: white;
+}
+
+#main {
+  background-color: chartreuse;
+  float: right;
+  width: 600px;
+  height: 50vh;
+}
+
+#footer {
+  background-color: gray;
+  height: 20px;
+  color: white;
+  text-align: right;
+  padding: 20px 40px;
+  clear: both;
+}
